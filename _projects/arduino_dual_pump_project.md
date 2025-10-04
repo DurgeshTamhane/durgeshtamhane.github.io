@@ -44,7 +44,7 @@ Laptop USB (5 V) ──> Arduino Uno EK ──> Relay IN1, IN2 (logic)
 | Arduino Uno EK | 5 V logic | powered via laptop USB |
 | Relay Module | 2-channel, optically isolated, SRD-05VDC-SL-C relays | HL-52S board; JD-VCC jumper removed |
 | Peristaltic Pumps | 12 V DC (Kamoer NKP-DC-S10B) | 80 mL / min nominal flow |
-| 12 V 2 A DC Adapter | powers pumps | measures ≈ 13 V open-circuit |
+| 12 V 2 A DC Adapter | powers pumps | — |
 | 5 V 2 A DC Adapter | powers relay coils | isolated coil supply |
 | Capacitors | 470 µF / 25 V (×1), 0.1 µF ceramic (×2) | surge & EMI suppression |
 | Jumper wires / screw terminals | — | for logic and power routing |
@@ -79,7 +79,7 @@ Each relay block (3 screws): `[ NC ] [ COM ] [ NO ]`
 - **NC** pins remain unused.  
 - Pumps are non-polar; swap wires if flow direction is reversed.
 
-##  Noise Suppression
+##  Noise Suppression (Optional)
 
 Add suppression capacitors to protect against motor interference:
 
@@ -172,10 +172,7 @@ Later firmware versions will include programmable cycle counts and time interval
 
 *(Replace paths with your actual media once uploaded.)*
 
-##  Repository and Files
 
-Full code, wiring diagram, and KiCad schematic available here:  
- [**GitHub Repository**](https://github.com/yourusername/yourrepo)
 
 
 > _This work demonstrates how simple electronics and open-source hardware can enable robust laboratory automation for coating research._
