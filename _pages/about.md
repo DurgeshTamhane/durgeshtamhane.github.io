@@ -8,7 +8,7 @@ I design and develop tools and methods for material characterization and nondest
 
 Explore more in my [Publications](/publications/), [Projects](/projects/), and [Patents](/patents/).
 
-**Reach me @:** dtamhane [at] outlook [dot] com  
+**Contact:** dtamhane [at] outlook [dot] com  
 **LinkedIn:** [linkedin.com/in/durgeshtamhane](https://www.linkedin.com/in/durgeshtamhane)
 
 
