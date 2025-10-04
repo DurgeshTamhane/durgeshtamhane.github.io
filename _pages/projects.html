@@ -20,3 +20,11 @@ author_profile: true
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+<h2> µ-Projects </h2>
+{% for post in site.projects %}
+  {% if post.u_project == true %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
