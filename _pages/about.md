@@ -9,7 +9,7 @@ I design and develop tools and methods for material characterization and nondest
 Explore more in my [Publications](/publications/), [Projects](/projects/), and [Patents](/patents/).
 
 You can reach me at dtamhane [at] outlook [dot] com.
-
+My linkedin profile: https://www.linkedin.com/in/durgeshtamhane
 ---
 
 ## What I’m Working On
