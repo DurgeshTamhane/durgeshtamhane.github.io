@@ -23,7 +23,6 @@ author_profile: true
 
 <h2> µ-Projects </h2>
 {% for post in site.projects %}
-  {% if post.u_project == true %}
   {% if post.status == "micro" %}
     {% include archive-single.html %}
   {% endif %}
