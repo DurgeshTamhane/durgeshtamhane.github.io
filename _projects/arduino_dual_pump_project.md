@@ -1,18 +1,14 @@
 ---
-title: "AI for Corrosion Prediction"
-status: ongoing
-date: 2025-08-16
-description: "ML models to predict coating degradation using electrochemical and weight change data."
+title: "Arduino-Controlled Dual Peristaltic Pump System"
+status: micro
+date: 2025-10-04
+description: "Automated Pump for Drying and Wetting Cycles for Performance Testing of Coatings."
 layout: single
 collection: projects
 author_profile: true
 u_project: true
 ---
-
-# Arduino-Controlled Dual Peristaltic Pump System  
-### Automated Drying and Wetting Cycles for Performance Testing of Coatings
-
-## 🧭 Overview
+##  Overview
 
 This project demonstrates a **fully isolated, Arduino-controlled dual peristaltic pump system** designed to automate cyclic *wetting–drying* experiments used in **coating and corrosion performance testing**.
 
@@ -25,7 +21,7 @@ The setup allows precise timing of *filling* and *draining* actions in corrosion
 - Modular design for scaling or automation
 - Reproducible wiring and test procedure for students
 
-## ⚙️ System Architecture
+##  System Architecture
 
 **Three independent power domains** ensure safe and noise-free operation:
 
@@ -37,12 +33,12 @@ Laptop USB (5 V) ──> Arduino Uno EK ──> Relay IN1, IN2 (logic)
 12 V Adapter ─────────> Pumps (through relay contacts)
 ```
 
-🧩 **Isolation principle:**  
+ **Isolation principle:**  
 - The Arduino drives only optocoupler LEDs inside the relay board.  
 - Coil and motor circuits use their own power adapters.  
 - Grounds are not shared between logic and motor domains.
 
-## 🧾 Bill of Materials
+##  Bill of Materials
 
 | Component | Specification | Notes |
 |------------|----------------|-------|
@@ -55,7 +51,7 @@ Laptop USB (5 V) ──> Arduino Uno EK ──> Relay IN1, IN2 (logic)
 | Jumper wires / screw terminals | — | for logic and power routing |
 | Multimeter | — | for voltage and continuity checks |
 
-## 🧩 Wiring Guide
+##  Wiring Guide
 
 ### Relay Power Connections
 
@@ -84,7 +80,7 @@ Each relay block (3 screws): `[ NC ] [ COM ] [ NO ]`
 - **NC** pins remain unused.  
 - Pumps are non-polar; swap wires if flow direction is reversed.
 
-## ⚡ Noise Suppression
+##  Noise Suppression
 
 Add suppression capacitors to protect against motor interference:
 
@@ -96,9 +92,9 @@ Add suppression capacitors to protect against motor interference:
 > Electrolytic cap: long leg to +12 V, short leg to GND.  
 > Ceramic caps have no polarity.
 
-## 🧪 Step-by-Step Setup
+##  Step-by-Step Setup
 
-### 1️⃣ Relay-Only Test (no pumps)
+### 1️ Relay-Only Test (no pumps)
 
 Upload this simple test sketch to ensure correct alternating logic.
 
@@ -126,10 +122,10 @@ void loop() {
 }
 ```
 
-✅ **Expected:**  
+ **Expected:**  
 - Relay 1 LED ON → Relay 2 OFF → click alternately every 2 s.
 
-### 2️⃣ Connect Pumps
+### 2️ Connect Pumps
 
 After confirming relay operation:
 
@@ -142,10 +138,10 @@ After confirming relay operation:
    - 12 V adapter → pumps  
 5. Observe alternating pump operation.
 
-✅ Each pump should run for 2 s, then stop as the other begins.  
+ Each pump should run for 2 s, then stop as the other begins.  
 No overlap, no random behavior.
 
-## 🧰 Troubleshooting
+##  Troubleshooting
 
 | Symptom | Likely Cause | Solution |
 |----------|---------------|-----------|
@@ -156,7 +152,7 @@ No overlap, no random behavior.
 | Arduino resets | Grounds accidentally tied | Maintain isolation |
 | Only one relay works | IN pin miswired | Verify D5 → IN1, D6 → IN2 |
 
-## 🔬 Application Context
+##  Application Context
 
 This hardware forms the automation core for **wet–dry cycling experiments** used in coating durability evaluation.  
 It can repeatedly:
@@ -169,7 +165,7 @@ It can repeatedly:
 
 Later firmware versions will include programmable cycle counts and time intervals to fully automate long-term corrosion performance studies.
 
-## 📸 Media (To be Added)
+##  Media (To be Added)
 
 - ![Setup Overview](images/pump_setup_overview.jpg)
 - ![Relay Board Wiring](images/relay_board_closeup.jpg)
@@ -177,15 +173,10 @@ Later firmware versions will include programmable cycle counts and time interval
 
 *(Replace paths with your actual media once uploaded.)*
 
-## 🧩 Repository and Files
+##  Repository and Files
 
 Full code, wiring diagram, and KiCad schematic available here:  
-👉 [**GitHub Repository**](https://github.com/yourusername/yourrepo)
+ [**GitHub Repository**](https://github.com/yourusername/yourrepo)
 
-## 🧠 Acknowledgments
-
-**Author:** Dr. Durgesh Tamhane  
-**Affiliation:** Krishna Conchem Products Pvt. Ltd.  
-**Purpose:** Development of affordable, modular automation for material performance testing.  
 
 > _This work demonstrates how simple electronics and open-source hardware can enable robust laboratory automation for coating research._
