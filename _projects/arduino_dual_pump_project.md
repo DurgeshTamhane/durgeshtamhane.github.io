@@ -8,11 +8,10 @@ collection: projects
 author_profile: true
 u_project: true
 ---
-##  Overview
 
 This project demonstrates a **fully isolated, Arduino-controlled dual peristaltic pump system** designed to automate cyclic *wetting–drying* experiments used in **coating and corrosion performance testing**.
 
-Two 12 V DC peristaltic pumps are independently switched through an optically isolated relay module, controlled by an Arduino Uno EK.  
+Two 12 V DC peristaltic pumps are independently switched through an optically isolated relay module, controlled by an Arduino Uno एक Minima R4.  
 The setup allows precise timing of *filling* and *draining* actions in corrosion test cells or humidity chambers.
 
 **Key features:**
