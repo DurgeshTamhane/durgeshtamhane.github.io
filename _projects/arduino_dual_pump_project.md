@@ -123,10 +123,10 @@ void loop() {
 
  **Expected:**  
 - Relay 1 LED ON → Relay 2 OFF → click alternately every 2 s.
-![Relay switching ON/OFF](files/projects/videos/uprojects/pump_cycles/Relay_WorkingGIF.gif)
+![Relay switching ON/OFF](/files/projects/videos/uprojects/pump_cycles/Relay_WorkingGIF.gif)
 
 - Effect of Relays cycling on the current draw (from a power supply).
-![Current draw because of Relay switching](files/projects/videos/uprojects/pump_cycles/power_supply_relay_current_drawGIF.gif)
+![Current draw because of Relay switching](/files/projects/videos/uprojects/pump_cycles/power_supply_relay_current_drawGIF.gif)
 
 ### 2️ Connect Pumps
 
