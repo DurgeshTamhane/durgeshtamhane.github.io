@@ -175,9 +175,3 @@ It can repeatedly:
 Later versions will include programmable cycle counts and time intervals to fully automate long-term corrosion performance studies.
 
 
-*(Replace paths with your actual media once uploaded.)*
-
-
-
-
-> _This work demonstrates how simple electronics and open-source hardware can enable robust laboratory automation for coating research._
