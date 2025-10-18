@@ -152,7 +152,7 @@ After confirming relay operation:
 
 Each pump should run for 2 s, then stop as the other begins.  
 No overlap, no random behavior.
-If the pumps are turning ON when the relay turns ON, the board is active- LOW ([Refer to Notes](#-notes-and-wiring-checks))
+If the pumps are turning ON when the relay turns OFF, the board is active- LOW ([Refer to Notes](#-notes-and-wiring-checks))
 
 <video controls playsinline width="480">
   <source src="/files/projects/videos/uprojects/pump_cycles/Pump_Cycles_480p.mp4" type="video/mp4">
