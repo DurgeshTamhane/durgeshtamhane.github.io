@@ -143,7 +143,10 @@ After confirming relay operation:
 Each pump should run for 2 s, then stop as the other begins.  
 No overlap, no random behavior.
 
-  ![Pumps cycling Video](files/projects/videos/uprojects/pump_cycles/Pump_Cycles_480p.mp4)
+<video controls playsinline width="480">
+  <source src="/files/projects/videos/uprojects/pump_cycles/Pump_Cycles_480p.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ##  Troubleshooting
 
