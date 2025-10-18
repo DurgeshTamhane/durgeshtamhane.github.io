@@ -29,7 +29,14 @@ It can repeatedly:
 ##  System Overview
 
 
-![Schematics](/files/projects/images/uproject/pump/system_overview.png)
+<p align="center">
+  <img src="/files/projects/images/uproject/pump/system_overview.png"
+       alt="System Overview Diagram: Arduino-controlled dual peristaltic pump setup"
+       width="900"
+       style="max-width: 100%; height: auto; image-rendering: crisp-edges; image-rendering: -webkit-optimize-contrast;">
+</p>
+
+<p align="center"><em>Figure: System overview showing isolated 5V logic, relay control, and 12V pump power connections</em></p>
 
  **Isolation principle:**  
 - The Arduino drives only optocoupler LEDs inside the relay board.  
