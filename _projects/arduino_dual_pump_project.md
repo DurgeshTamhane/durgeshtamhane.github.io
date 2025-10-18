@@ -79,6 +79,8 @@ Each relay block (3 screws): `[ NC ] [ COM ] [ NO ]`
 - **NC** pins remain unused.  
 - Pumps are non-polar; swap wires if flow direction is reversed.
 
+
+<!--
 ##  Noise Suppression (Optional)
 
 Add suppression capacitors to protect against motor interference:
@@ -90,7 +92,7 @@ Add suppression capacitors to protect against motor interference:
 
 > Electrolytic cap: long leg to +12 V, short leg to GND.  
 > Ceramic caps have no polarity.
-
+-->
 ##  Step-by-Step Setup
 
 ### 1️ Relay-Only Test (no pumps)
