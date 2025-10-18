@@ -116,18 +116,21 @@ void loop() {
   delay(2000);
 
   digitalWrite(relay1, LOW);  // Pump1 OFF
-  digitalWrite(relay2, HIGH); // Pump2 ON
+  digitalWrite(relay2, HIGH); // Pump2 O/"
   delay(2000);
 }
 ```
 
  **Expected:**  
 - Relay 1 LED ON → Relay 2 OFF → click alternately every 2 s.
+![Relay switching ON/OFF](files/projects/videos/uprojects/pump_cycles/Relay_WorkingGIF.gif)
+
+- Effect of Relays cycling on the current draw (from a power supply).
+![Current draw because of Relay switching](files/projects/videos/uprojects/pump_cycles/power_supply_relay_current_drawGIF.gif)
 
 ### 2️ Connect Pumps
 
 After confirming relay operation:
-
 1. Power off all adapters.  
 2. Wire pumps as per table above.  
 3. Add suppression capacitors.  
@@ -137,8 +140,10 @@ After confirming relay operation:
    - 12 V adapter → pumps  
 5. Observe alternating pump operation.
 
- Each pump should run for 2 s, then stop as the other begins.  
+Each pump should run for 2 s, then stop as the other begins.  
 No overlap, no random behavior.
+
+  ![Pumps cycling Video](files/projects/videos/uprojects/pump_cycles/Pump_Cycles_480p.mp4)
 
 ##  Troubleshooting
 
@@ -164,11 +169,6 @@ It can repeatedly:
 
 Later versions will include programmable cycle counts and time intervals to fully automate long-term corrosion performance studies.
 
-##  Media (To be Added)
-
-- ![Setup Overview](images/pump_setup_overview.jpg)
-- ![Relay Board Wiring](images/relay_board_closeup.jpg)
-- ![Alternating Pumps Video](videos/pump_cycle_demo.mp4)
 
 *(Replace paths with your actual media once uploaded.)*
 
