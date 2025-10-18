@@ -29,13 +29,7 @@ It can repeatedly:
 ##  System Overview
 
 
-```
-Laptop USB (5 V) ──> Arduino Uno EK ──> Relay IN1, IN2 (logic)
-                      │
-5 V Adapter ─────────> Relay Coils (JD-VCC side)
-                      │
-12 V Adapter ─────────> Pumps (through relay contacts)
-```
+![Schematics](/files/projects/images/uproject/pump/system_overview.png)
 
  **Isolation principle:**  
 - The Arduino drives only optocoupler LEDs inside the relay board.  
