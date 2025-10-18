@@ -162,7 +162,7 @@ It can repeatedly:
 4. **Pause/Dry** for set duration  
 5. Repeat for N cycles
 
-Later firmware versions will include programmable cycle counts and time intervals to fully automate long-term corrosion performance studies.
+Later versions will include programmable cycle counts and time intervals to fully automate long-term corrosion performance studies.
 
 ##  Media (To be Added)
 
