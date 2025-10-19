@@ -32,7 +32,7 @@ It can repeatedly:
 The following diagram shows the complete layout of the system.
 [![System Overview Diagram — Click to enlarge](/files/projects/images/uproject/pump/system_overview.png)](/files/projects/images/uproject/pump/system_overview.png){:target="_blank"}
 
-<p align="center" style="font-size:0.85em;"><em>Click the image to view the high-resolution version in a new tab.</em></p>
+<p align="center" style="font-size:0.5em;"><em>Click the image to view the high-resolution version in a new tab.</em></p>
 
 
  **Isolation principle:**  
