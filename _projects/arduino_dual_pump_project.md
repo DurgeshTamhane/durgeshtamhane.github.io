@@ -70,6 +70,7 @@ It can repeatedly:
 ### Pump Power via Relays
 
 Each relay block (3 screws): `[ NC ] [ COM ] [ NO ]`
+
 [Refer to Notes](#-notes-and-wiring-checks) for identifying these terminals on the relay.
 
 
