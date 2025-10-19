@@ -9,7 +9,7 @@ author_profile: true
 u_project: true
 ---
 
-This project demonstrates a **fully isolated, Arduino-controlled dual peristaltic pump system** designed to automate cyclic *wetting–drying* experiments used in **coating and corrosion performance testing**.
+This project demonstrates an **Arduino-controlled dual peristaltic pump system** designed to automate cyclic *wetting–drying* experiments used in **coating and corrosion performance testing**.
 
 
 Two 12 V DC peristaltic pumps are independently switched through an optically isolated relay module, controlled by an Arduino Uno एक Minima R4.  
@@ -17,25 +17,22 @@ The setup allows precise timing of *filling* and *draining* actions in corrosion
 
 ##  Application Context
 
-This hardware forms the automation core for **wet–dry cycling experiments** used in coating durability evaluation.  
+This hardware can be useful to automate **wet–dry cycling** according to ASTM G44 and could be repurposed for evaluating coating durability. 
+
 It can repeatedly:
 
 1. **Fill** a salt-solution chamber (Pump 1 ON)  
-2. **Wait** for specified wet exposure time  
+2. **Wait** for specified wet exposure time (10 minutes - ASTM G44) 
 3. **Drain** the chamber (Pump 2 ON)  
-4. **Pause/Dry** for set duration  
+4. **Pause/Dry** for set duration (50 minutes - ASTM G44)
 5. Repeat for N cycles
 
 ##  System Overview
 
-
-## 🧭 System Architecture
-
-The following diagram shows the complete wiring and isolation layout of the system.
-
+The following diagram shows the complete layout of the system.
 [![System Overview Diagram — Click to enlarge](/files/projects/images/uproject/pump/system_overview.png)](/files/projects/images/uproject/pump/system_overview.png){:target="_blank"}
 
-<p align="center"><em>Click the image to view the high-resolution version in a new tab.</em></p>
+<p align="center" style="font-size:0.85em;"><em>Click the image to view the high-resolution version in a new tab.</em></p>
 
 
  **Isolation principle:**  
