@@ -8,6 +8,9 @@ collection: projects
 author_profile: true
 ---
 
+
+
+![ML_ongoing_work](/files/projects/images/ML_ongoing.png)
 This project focuses on building **machine learning models** to predict the corrosion performance of coated steel plates using data such as weight change, capacitance (electrochemical measurements), and adhesion strength. It establishes a framework to scale from simple lab experiments to predictive corrosion modeling.
 
 <!--more-->
