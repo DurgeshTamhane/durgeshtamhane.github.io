@@ -1,7 +1,7 @@
 ---
 title: "Portable Field EIS Device for Coating Assessment"
 status: ongoing
-date: 2025-10-24
+date: 2025-09-24
 description: "Developing a portable device based on ASTM D8370-22 for field measurement of electrochemical impedance on coatings and linings."
 layout: single
 collection: projects
