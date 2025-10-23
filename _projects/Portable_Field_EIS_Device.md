@@ -11,7 +11,7 @@ u_project: true
 This project aims to translate the **ASTM D8370-22** standard for *Field Measurement of Electrochemical Impedance on Coatings and Linings* into a **portable diagnostic tool** for quick, on-site coating evaluation.
 
 
-[Ongoing Work](/files/projects/images/EIS_port.jpg)
+![Ongoing Work](/files/projects/images/EIS_port.jpg)
 
 
 
