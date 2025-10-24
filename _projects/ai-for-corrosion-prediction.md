@@ -27,6 +27,6 @@ This project focuses on building **machine learning models** to predict the corr
 - Measure weight change, capacitance, and adhesion over multiple cycles.
 - Analyze data using statistical and ML techniques to predict performance.
 
-## Outcome
+## Expected Outcome
 - Detectable corrosion (≥0.2g weight loss) validated.
 - Framework established for full-scale machine learning experiments.
